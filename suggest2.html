@@ -16,7 +16,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <!--clicking title will be linked back to homepage-->
-        <a class="navbar-brand" href="#">Wellness on the Web</a> <!-- LINK PAGES-->
+        <a class="navbar-brand" href="index.html">Wellness on the Web</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -29,9 +29,9 @@
                 I'm looking for...
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Yoga</a>
-                <a class="dropdown-item" href="#">Running</a>
-                <a class="dropdown-item" href="#">Strength training</a>
+                <a class="dropdown-item" href="yoga.html">Yoga</a>
+                <a class="dropdown-item" href="#">Workouts</a>
+                <a class="dropdown-item" href="#">Nutrition</a>
               </div>
             </li>
           </ul>
@@ -82,6 +82,39 @@
       <button id="sndbutton" type="submit" class="btn btn-primary">Send</button>
     </form>
     <br>
+
+    <!-- testing out moving images as additional bit-->
+    <hr>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators" >
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-interval="5000">
+          <img src="Wellness.png" class="centre" alt="..."width="300" height="300" class= "img-fluid" >
+        </div>
+        <div class="carousel-item" data-interval="5000">
+          <img src="Yoga.png" class="centre" alt="..." width="300" height="300" class= "img-fluid">
+        </div>
+        <div class="carousel-item" data-interval="5000">
+          <img src="Body.png" class="centre" alt="..." width="300" height="300" class= "img-fluid">
+        </div>
+        <div class="carousel-item" data-interval="">
+          <img src="Food.png" class="centre" alt="..." width="300" height="300" class= "img-fluid">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    
     <!-- need to space these out better and link them -->
     <hr>
     <div class="flex-container">
