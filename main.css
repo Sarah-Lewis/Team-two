@@ -43,8 +43,15 @@ h2, p {
   }
 
   .card-text {
-    font-family: sans-serif;
+    font-family: 'Playfair Display SC', serif;
     font-size: 1em;
+    text-align: left;
+    font-style: normal;
+}
+
+.card-title {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 2em;
     text-align: left;
     font-style: normal;
 }
